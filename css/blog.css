@@ -1,0 +1,43 @@
+#blog h3,h4 {
+    text-align: center;  /* alineacion de los textos escritos en h3 y h4*/
+}
+#test h3,h4 {
+    text-align: center;  /* alineacion de los textos escritos en h3 y h4*/
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog .mision{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+#test .valores{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+#test .valores article{
+    margin: 15px; /* ubicacion margen  articulo*/
+}
+
+#test article{
+    margin: 10px; /* ubicacion margen  articulo*/
+    border: solid ;
+    border-radius: 20px;
+    border-width: 1px;
+}
+#test div {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+#test img{
+    height: 200px;
+    width: 200px;
+    max-width: 400px; /* tamaño imagen blog*/
+}
